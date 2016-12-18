@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Intrulert</string>
+    <string name="user_pref_category">User</string>
+    <string name="name">Name</string>
+    <string name="name_description">Name you can be identified with in this house.</string>
+    <string name="is_admin">Administrator</string>
+    <string name="is_admin_description">Control and make settings to the Intrulert system</string>
+    <string name="intrulert_pref">Intrulert System</string>
+    <string name="intrulert_id">ID</string>
+    <string name="intrulert_id_summary">Change or set intrulert machine to be activated with</string>
+    <string name="intrulert_setup">Intrulert Setup</string>
+    <string name="intrulert_system_status">Intrulert status</string>
+    <string name="settings">Settings</string>
+    <string name="intrulert_safe">Your residence is safe</string>
+    <string name="title_activity_config">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="intrulert_id_sample">i 20 16 d</string>
+    <string name="active">Active</string>
+    <string name="intrulert_insecure">Intrulert system has been deactivated.</string>
+    <string name="disable_time">Time to Deactivate</string>
+    <string name="disable_summary">Set time to deactivate the system.</string>
+    <string name="enable_time">Enabled time</string>
+    <string name="enable_summary">Set the time to re-activate the system.</string>
+    <string name="intrulert_summary">Modern Security System for Homes and Businesses</string>
+    <string name="copyright">(c) 2017 Intrulert Systems Inc.</string>
+    <string name="about">About</string>
+    <string name="about_intrulert">About Intrulert</string>
+    <string name="about_summary">Something little about us</string>
+    <string name="password">Password</string>
+    <string name="password_summary">Set password for the system</string>
+    <string name="administration">Administration</string>
+</resources>

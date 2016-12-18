@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/user_pref_category">
+        <EditTextPreference
+            android:key="user_name"
+            android:summary="@string/name_description"
+            android:title="@string/name" />
+
+        <PreferenceScreen android:title="@string/administration">
+            <SwitchPreference
+                android:key="user_is_admin"
+                android:summary="@string/is_admin_description"
+                android:title="@string/is_admin" />
+
+            <Preference
+                android:dependency="user_is_admin"
+                android:summary="@string/password_summary"
+                android:title="@string/password" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/intrulert_pref">
+        <EditTextPreference
+            android:key="intrulert_id"
+            android:summary="@string/intrulert_id_summary"
+            android:title="@string/intrulert_id" />
+
+        <SwitchPreference
+            android:dependency="user_is_admin"
+            android:key="disable_time"
+            android:summary="@string/disable_summary"
+            android:title="@string/disable_time" />
+
+        <EditTextPreference
+            android:dependency="disable_time"
+            android:key="enable_time"
+            android:summary="@string/enable_summary"
+            android:title="@string/enable_time" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about">
+        <Preference
+            android:summary="@string/about_summary"
+            android:title="@string/about_intrulert">
+            <intent
+                android:targetClass="co.blackground.intrulert.activities.AboutActivity"
+                android:targetPackage="co.blackground.intrulert" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
